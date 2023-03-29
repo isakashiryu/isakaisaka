@@ -6,4 +6,4 @@ old_email = 'seino.kaimu@icloud.com.com'
 new_domain = 'newdomain.com'
 
 new_email = change_domain(old_email, new_domain)
-print(new_email)
+print(new_email) # seino.kaimu@icloud.com
