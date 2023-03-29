@@ -3,7 +3,7 @@ def change_domain(email, domain):
 
 # 使用例
 old_email = 'seino.kaimu@icloud.com.com'
-new_domain = 'newdomain.com'
+new_domain = 'new_domain.com'
 
 new_email = change_domain(old_email, new_domain)
 print(new_email) # seino.kaimu@icloud.com
