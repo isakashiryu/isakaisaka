@@ -3,7 +3,7 @@
 def reverse_lookup(list1):
     dictionary1 = {}
     for key in list1:
-        dictionary1{key} = list1.index(key)
+        dictionary1[key] = list1.index(key)
     return dictionary1
 
 print(reverse_lookup(['apple', 'pen', 'orange']) == {'apple': 0, 'orange': 2, 'pen': 1})
