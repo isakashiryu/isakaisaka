@@ -70,3 +70,25 @@ def collect_engwords(str_engsentences):
       
 
 # 練習9
+def swap_lists(ln1,ln2):
+    for odd_number in range(1,len(ln1),2):
+        ln2[odd_number],ln1[odd_number] = ln1[odd_number],ln2[odd_number]
+    tuple1 = (ln1,ln2)
+    return tuple1 
+
+# 練習10
+def count_capitalletters(str1):
+    count = 0
+    for letter in str1:
+        if letter.isupper():
+            count += 1
+    return count   
+
+# 練習11
+def identify_codons(str_augc):
+    str_codons = []
+    for i in range(0,len(str_augc),3):
+        str_codons.append(str_augc[i*3: i*3+3])
+    return str_codons  
+
+print(identify_codons('CCCCCGGCACCT'))
