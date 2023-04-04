@@ -91,4 +91,6 @@ def identify_codons(str_augc):
         str_codons.append(str_augc[i*3: i*3+3])
     return str_codons  
 
-print(identify_codons('CCCCCGGCACCT'))
+# 練習12
+def add_commas(int1):
+    
