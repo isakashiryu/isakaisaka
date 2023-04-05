@@ -93,4 +93,7 @@ def identify_codons(str_augc):
 
 # 練習12
 def add_commas(int1):
-    
+    list1 = list(str(int1))
+    str1 = ''
+    count = -1
+    for x in range():
